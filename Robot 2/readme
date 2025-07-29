@@ -1,1 +1,19 @@
 
+## 📌 Project 2: Data Capturing Robot
+
+**Description:**  
+This robot automates the process of reading structured data from an Excel sheet and entering it into two platforms in parallel:
+1. A **desktop-based saisie application**
+2. A **web interface**
+
+**Features:**
+- Reads data from Excel  
+- Enters data into two interfaces simultaneously  
+- Works with both desktop and browser environments  
+- Error handling included for stability
+
+**Technologies Used:**
+- UiPath Studio  
+- Excel Application Scope  
+- UI Automation (Desktop & Web)  
+- Parallel Activities  
