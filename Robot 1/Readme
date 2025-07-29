@@ -1,1 +1,15 @@
+## 📌 Project 1: Clothing Consultant Robot
+
+**Description:**  
+An interactive robot that acts as a clothing consultant. Based on user input, it suggests suitable clothing styles. The bot simulates an assistant experience and provides decision-making logic.
+
+**Features:**
+- Interactive dialogue with user
+- Decision logic to suggest clothing
+- Clean UI for better user experience
+
+**Technologies Used:**
+- UiPath Studio  
+- Input Dialog activities  
+- Conditional workflows  
 
