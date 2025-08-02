@@ -1,0 +1,37 @@
+
+# carsDealership 🤖🚗
+A UiPath automation bot that scrapes car listings from [Tayara.tn](https://www.tayara.tn/) based on a user-selected Tunisian city, and saves the data to an Excel spreadsheet.
+
+---
+
+## 📌 Features
+
+- Prompt user to enter the name of a **Tunisian city**
+- Navigate to Tayara.tn and perform a search for cars in that location
+- Automatically extract data:
+  - 🏷️ Car title
+  - 💰 Price
+  - 📍 City/Location
+  - 📅 Posting date
+- Export all results to a well-formatted **Excel file**
+
+---
+
+## 🛠️ Technologies Used
+
+- **UiPath Studio**
+- **Data Scraping Wizard**
+- **Excel Application Scope**
+- **Input Dialog**
+- **Dynamic Selectors**
+
+---
+
+## 🎬 Demo Video
+
+👉 Watch it in action on YouTube: [carsDealership Bot Demo](https://youtu.be/KI3LILL1_Yw)
+
+---
+
+## 📂 Project Structure
+
