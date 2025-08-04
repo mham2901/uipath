@@ -1,1 +1,85 @@
 
+# PDF to Excel Bot 📄➡️📊
+A UiPath automation that processes large volumes of PDF files (1000+), extracts specific data fields, and writes the results into an Excel spreadsheet.
+
+---
+
+## 🎯 Goal
+
+Automate the extraction of structured data from PDFs — such as invoices, contracts, or reports — and store it into a single Excel file for reporting or analysis.
+
+---
+
+
+---
+
+## 🛠️ Technologies Used
+
+- UiPath Studio
+- **Read PDF Text / OCR activities**
+- Regex & string operations
+- Excel Application Scope
+- For Each File in Folder
+
+---
+
+## 🧠 Features
+
+- Batch processes **1000+ PDF files**
+- Supports both **text-based and scanned PDFs**
+- Uses **custom Regex** or anchors to extract:
+  - Invoice number
+  - Date
+  - Customer name
+  - Total amount
+- Appends data into a single Excel table
+
+---
+
+## ⚙️ How to Use
+
+1. Place all PDF files in the `Input/` folder
+2. Open `Main.xaml` in UiPath Studio
+3. Configure the patterns in `RegexPatterns.txt` (optional)
+4. Run the bot
+5. Extracted data will appear in `Output/extracted_data.xlsx`
+
+---
+
+## 🎬 Watch the Demo
+
+👉 YouTube Demo: [PDF Automation Bot](https://youtu.be/W15k3r0KlRo)
+
+---
+
+## 📌 Use Cases
+
+- Invoice and billing automation
+- Archival data extraction
+- Contract analysis
+- HR or legal document processing
+
+---
+
+## 🧠 Notes
+
+- For scanned PDFs, ensure Tesseract OCR is installed and configured
+- Regex-based fields should be adjusted to match your document structure
+- Consider integrating with **Document Understanding + ML Extractor** for more advanced parsing
+
+---
+
+## 📬 Contact
+
+Made with ☕ and UiPath by **Mohamed Amine Mhadhbi**  
+🔗 LinkedIn: mohamed-amine-mhadhbi/  
+📧 Email: medaminemhadhbi
+
+---
+
+## 🛡 License
+
+MIT License – For educational and non-commercial use. Always ensure you comply with data privacy rules when handling documents.
+
+
+
